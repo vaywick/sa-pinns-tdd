@@ -1,0 +1,1 @@
+The Allen–Cahn equation is solved using the SA-PINNs-TDD model with 2 subdomains, implemented within the TensorFlow framework.
