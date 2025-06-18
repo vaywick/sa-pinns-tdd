@@ -14,3 +14,7 @@ In contrast, our developed SA-PINNs successfully solve both problems and achieve
 
 SA-PINNs-TDD are implemented using either the TensorFlow or PyTorch frameworks.
 The Euler–Bernoulli-new and Allen–Cahn (AC) simulations are conducted in TensorFlow, while the remaining models are implemented in PyTorch.
+
+PyTorch version 2.0.0 or higher
+
+tensorflow version = 2.3.0 and keras version = 2.4.3
