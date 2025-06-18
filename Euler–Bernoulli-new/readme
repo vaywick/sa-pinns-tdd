@@ -1,3 +1,5 @@
+Data file 'comb_u_pred-causal-eb.pkl' here is achieved based on the causal PINNs with transfer learning [https://github.com/taniyakapoor/Causal-PINN-for-beam/tree/second].
+
 Euler Bernoulli beam dynamic is successfully resolved by our newly developed SA-PINNs (SA-PINNs-TDD with one subdomain), 
 which previous studies [Engineering Applications of Artificial Intelligence 133 (2024) 108085] failed to accomplish.
 Furthermore, our approach achieves significantly higher accuracy-exceeding that of the causal PINNs with transfer learning by 58 times. 
