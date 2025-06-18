@@ -1,1 +1,2 @@
-Second-order rogue wave studies.
+Second-order rogue wave solution of the nonlinear Schrödinger equation is accurately solved with training over 7 subdomains using the SA-PINNs-TDD model.
+However, the single-subdomain training approach-equivalent to the original SA-PINNs model-achieve low accuracy.
