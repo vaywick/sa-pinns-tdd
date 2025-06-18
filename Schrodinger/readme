@@ -1,0 +1,2 @@
+First- and second-order rogue wave solutions of the nonlinear Schrödinger equation are accurately solved using the SA-PINNs-TDD model.
+High-precision predictions are achieved with training over 5 or 7 subdomains, whereas the single-subdomain training approach-equivalent to the original SA-PINNs model-fails to attain comparable accuracy.
