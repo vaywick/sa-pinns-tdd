@@ -1,0 +1,338 @@
+nohup: ignoring input
+Data_flie is not Exists
+figures is not Exists
+NeuralNet(
+  (network): Sequential(
+    (0): Linear(in_features=3, out_features=64, bias=True)
+    (1): Tanh()
+    (2): Linear(in_features=64, out_features=64, bias=True)
+    (3): Tanh()
+    (4): Linear(in_features=64, out_features=64, bias=True)
+    (5): Tanh()
+    (6): Linear(in_features=64, out_features=64, bias=True)
+    (7): Tanh()
+    (8): Linear(in_features=64, out_features=64, bias=True)
+    (9): Tanh()
+    (10): Linear(in_features=64, out_features=1, bias=True)
+  )
+)
+starting Adam training
+/home/ub20/miniconda3/envs/py39torch/lib/python3.9/site-packages/torch/autograd/graph.py:744: UserWarning: Attempting to run cuBLAS, but there was no current CUDA context! Attempting to set the primary context... (Triggered internally at ../aten/src/ATen/cuda/CublasHandlePool.cpp:135.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+It: 100, Time: 3.96, mse_0: 6.0120e+00, mse_f: 1.2999e+04, total loss: 1.3078e+04, Error: 9.7388e-01
+It: 200, Time: 2.50, mse_0: 3.5025e+01, mse_f: 1.2949e+04, total loss: 1.3052e+04, Error: 9.6793e-01
+It: 300, Time: 2.55, mse_0: 9.9848e+01, mse_f: 1.0564e+04, total loss: 1.0844e+04, Error: 1.4847e-01
+It: 400, Time: 2.81, mse_0: 1.2321e+01, mse_f: 1.0386e+04, total loss: 1.0453e+04, Error: 1.6843e-01
+It: 500, Time: 2.90, mse_0: 7.4797e+00, mse_f: 1.0379e+04, total loss: 1.0412e+04, Error: 9.4769e-02
+It: 600, Time: 3.34, mse_0: 4.2218e+00, mse_f: 1.0424e+04, total loss: 1.0445e+04, Error: 6.6602e-02
+It: 700, Time: 2.67, mse_0: 7.3995e+00, mse_f: 1.0299e+04, total loss: 1.0329e+04, Error: 7.7937e-02
+It: 800, Time: 2.62, mse_0: 3.3153e+01, mse_f: 9.6056e+03, total loss: 9.6987e+03, Error: 9.0351e-02
+It: 900, Time: 3.14, mse_0: 1.8551e+01, mse_f: 8.6183e+03, total loss: 8.7015e+03, Error: 9.5582e-02
+It: 1000, Time: 3.07, mse_0: 2.9056e+01, mse_f: 7.1267e+03, total loss: 7.2648e+03, Error: 1.1791e-01
+It: 1100, Time: 3.44, mse_0: 3.3803e+01, mse_f: 6.4970e+03, total loss: 6.6256e+03, Error: 7.9319e-02
+It: 1200, Time: 3.52, mse_0: 2.5449e+01, mse_f: 6.2680e+03, total loss: 6.3693e+03, Error: 7.7185e-02
+It: 1300, Time: 2.98, mse_0: 4.3513e+01, mse_f: 5.8910e+03, total loss: 6.0375e+03, Error: 5.8409e-02
+It: 1400, Time: 3.04, mse_0: 1.8360e+01, mse_f: 5.6947e+03, total loss: 5.7971e+03, Error: 6.8290e-02
+It: 1500, Time: 3.34, mse_0: 2.1135e+01, mse_f: 5.5071e+03, total loss: 5.6276e+03, Error: 6.2650e-02
+It: 1600, Time: 3.42, mse_0: 1.8206e+01, mse_f: 5.4250e+03, total loss: 5.5277e+03, Error: 5.1364e-02
+It: 1700, Time: 3.20, mse_0: 2.0025e+01, mse_f: 5.4055e+03, total loss: 5.5164e+03, Error: 5.5359e-02
+It: 1800, Time: 3.14, mse_0: 1.8850e+01, mse_f: 5.3942e+03, total loss: 5.4999e+03, Error: 5.2861e-02
+It: 1900, Time: 3.06, mse_0: 2.1671e+01, mse_f: 5.3675e+03, total loss: 5.4839e+03, Error: 4.8394e-02
+It: 2000, Time: 3.20, mse_0: 2.2782e+01, mse_f: 5.1663e+03, total loss: 5.2807e+03, Error: 5.2055e-02
+starting L-BFGS training
+It: 100, Time: 3.81, mse_0: 3.0922e+01, mse_f: 4.5877e+03, total loss: 4.7216e+03, Error: 5.7873e-02
+It: 200, Time: 5.38, mse_0: 2.7744e+01, mse_f: 3.5199e+03, total loss: 3.6559e+03, Error: 6.5545e-02
+It: 300, Time: 4.20, mse_0: 3.5684e+01, mse_f: 2.7492e+03, total loss: 2.8739e+03, Error: 5.3837e-02
+It: 400, Time: 4.92, mse_0: 3.6637e+01, mse_f: 1.5693e+03, total loss: 1.6927e+03, Error: 4.4667e-02
+It: 500, Time: 5.49, mse_0: 3.5168e+01, mse_f: 9.3969e+02, total loss: 1.0551e+03, Error: 4.3591e-02
+Error u: 4.359148e-02
+ferru =  0.19433124
+Error u: 4.359148e-02
+u_pred.shape after=  (105, 103, 51)
+NeuralNet(
+  (network): Sequential(
+    (0): Linear(in_features=3, out_features=64, bias=True)
+    (1): Tanh()
+    (2): Linear(in_features=64, out_features=64, bias=True)
+    (3): Tanh()
+    (4): Linear(in_features=64, out_features=64, bias=True)
+    (5): Tanh()
+    (6): Linear(in_features=64, out_features=64, bias=True)
+    (7): Tanh()
+    (8): Linear(in_features=64, out_features=64, bias=True)
+    (9): Tanh()
+    (10): Linear(in_features=64, out_features=1, bias=True)
+  )
+)
+starting Adam training
+It: 100, Time: 3.59, mse_0: 8.9475e+03, mse_f: 1.6376e+04, total loss: 2.6110e+04, Error: 9.6648e-01
+It: 200, Time: 3.67, mse_0: 1.7592e+02, mse_f: 1.0744e+04, total loss: 1.1146e+04, Error: 2.3477e-01
+It: 300, Time: 3.70, mse_0: 1.0747e+02, mse_f: 1.0231e+04, total loss: 1.0476e+04, Error: 1.6175e-01
+It: 400, Time: 3.39, mse_0: 5.6646e+01, mse_f: 7.7210e+03, total loss: 7.9282e+03, Error: 1.2405e-01
+It: 500, Time: 3.09, mse_0: 6.7057e+01, mse_f: 5.2235e+03, total loss: 5.4364e+03, Error: 1.2368e-01
+It: 600, Time: 3.52, mse_0: 3.4002e+01, mse_f: 3.4841e+03, total loss: 3.6520e+03, Error: 1.0078e-01
+It: 700, Time: 3.67, mse_0: 3.5344e+01, mse_f: 1.8238e+03, total loss: 2.0174e+03, Error: 7.7526e-02
+It: 800, Time: 3.54, mse_0: 3.6184e+01, mse_f: 1.0165e+03, total loss: 1.1704e+03, Error: 6.8474e-02
+It: 900, Time: 3.03, mse_0: 1.4424e+01, mse_f: 6.7560e+02, total loss: 7.8620e+02, Error: 3.9333e-02
+It: 1000, Time: 2.74, mse_0: 1.1762e+01, mse_f: 4.0070e+02, total loss: 4.8510e+02, Error: 4.5426e-02
+It: 1100, Time: 2.75, mse_0: 1.2462e+01, mse_f: 2.6108e+02, total loss: 3.2645e+02, Error: 4.2300e-02
+It: 1200, Time: 2.72, mse_0: 1.1779e+01, mse_f: 1.9195e+02, total loss: 2.5046e+02, Error: 2.1136e-02
+It: 1300, Time: 3.52, mse_0: 1.2300e+01, mse_f: 8.7536e+01, total loss: 1.2775e+02, Error: 3.9390e-02
+It: 1400, Time: 3.29, mse_0: 9.4494e+00, mse_f: 5.1921e+01, total loss: 8.0108e+01, Error: 1.8405e-02
+It: 1500, Time: 3.33, mse_0: 8.9950e+00, mse_f: 3.6356e+01, total loss: 5.7613e+01, Error: 2.6762e-02
+starting L-BFGS training
+It: 100, Time: 3.88, mse_0: 5.8102e+00, mse_f: 2.5930e+01, total loss: 3.7660e+01, Error: 2.0988e-02
+It: 200, Time: 5.09, mse_0: 5.1574e+00, mse_f: 1.7904e+01, total loss: 2.8150e+01, Error: 2.0836e-02
+It: 300, Time: 4.46, mse_0: 4.8341e+00, mse_f: 1.3005e+01, total loss: 2.2491e+01, Error: 1.9475e-02
+It: 400, Time: 4.79, mse_0: 4.7143e+00, mse_f: 1.0271e+01, total loss: 1.8708e+01, Error: 1.9444e-02
+It: 500, Time: 5.64, mse_0: 4.6797e+00, mse_f: 8.1663e+00, total loss: 1.5900e+01, Error: 1.9054e-02
+Error u: 1.905439e-02
+ferru =  0.021627517
+Error u: 2.645338e-02
+u_pred.shape after=  (105, 103, 101)
+NeuralNet(
+  (network): Sequential(
+    (0): Linear(in_features=3, out_features=64, bias=True)
+    (1): Tanh()
+    (2): Linear(in_features=64, out_features=64, bias=True)
+    (3): Tanh()
+    (4): Linear(in_features=64, out_features=64, bias=True)
+    (5): Tanh()
+    (6): Linear(in_features=64, out_features=64, bias=True)
+    (7): Tanh()
+    (8): Linear(in_features=64, out_features=64, bias=True)
+    (9): Tanh()
+    (10): Linear(in_features=64, out_features=1, bias=True)
+  )
+)
+starting Adam training
+It: 100, Time: 3.02, mse_0: 1.4777e+04, mse_f: 1.6562e+04, total loss: 3.5673e+04, Error: 9.1719e-01
+It: 200, Time: 2.75, mse_0: 7.8867e+02, mse_f: 1.0773e+04, total loss: 1.2162e+04, Error: 2.4349e-01
+It: 300, Time: 3.05, mse_0: 1.6529e+02, mse_f: 9.4973e+03, total loss: 9.9574e+03, Error: 5.7861e-02
+It: 400, Time: 2.81, mse_0: 5.4673e+01, mse_f: 8.2016e+03, total loss: 8.3928e+03, Error: 5.4177e-02
+It: 500, Time: 2.90, mse_0: 4.5324e+01, mse_f: 6.9635e+03, total loss: 7.0645e+03, Error: 5.7354e-02
+It: 600, Time: 2.90, mse_0: 3.6166e+01, mse_f: 4.9035e+03, total loss: 5.0254e+03, Error: 5.2646e-02
+It: 700, Time: 2.90, mse_0: 3.3453e+01, mse_f: 3.6486e+03, total loss: 3.7863e+03, Error: 5.0458e-02
+It: 800, Time: 2.80, mse_0: 2.0946e+01, mse_f: 2.4154e+03, total loss: 2.5340e+03, Error: 4.1736e-02
+It: 900, Time: 2.68, mse_0: 1.7066e+01, mse_f: 1.3222e+03, total loss: 1.4559e+03, Error: 3.9388e-02
+It: 1000, Time: 2.81, mse_0: 1.0191e+01, mse_f: 8.4213e+02, total loss: 9.4390e+02, Error: 3.3674e-02
+It: 1100, Time: 2.93, mse_0: 7.4564e+00, mse_f: 3.7812e+02, total loss: 4.4685e+02, Error: 2.6132e-02
+It: 1200, Time: 3.10, mse_0: 5.3444e+00, mse_f: 2.0211e+02, total loss: 2.4462e+02, Error: 1.7636e-02
+It: 1300, Time: 2.92, mse_0: 8.2688e+00, mse_f: 1.1041e+02, total loss: 1.4558e+02, Error: 3.0248e-02
+It: 1400, Time: 2.92, mse_0: 5.8666e+00, mse_f: 7.5076e+01, total loss: 1.0084e+02, Error: 2.6216e-02
+It: 1500, Time: 2.83, mse_0: 5.1000e+00, mse_f: 5.5499e+01, total loss: 7.8332e+01, Error: 2.4907e-02
+starting L-BFGS training
+It: 100, Time: 3.75, mse_0: 6.7106e-01, mse_f: 3.5759e+01, total loss: 4.2805e+01, Error: 1.5914e-02
+It: 200, Time: 4.82, mse_0: 3.6223e-01, mse_f: 2.2483e+01, total loss: 2.7199e+01, Error: 1.2148e-02
+It: 300, Time: 4.41, mse_0: 3.5685e-01, mse_f: 1.5437e+01, total loss: 1.9248e+01, Error: 9.7696e-03
+It: 400, Time: 4.56, mse_0: 2.8655e-01, mse_f: 1.1481e+01, total loss: 1.4413e+01, Error: 7.4255e-03
+It: 500, Time: 4.32, mse_0: 2.3436e-01, mse_f: 9.0708e+00, total loss: 1.1363e+01, Error: 6.6914e-03
+Error u: 6.691355e-03
+ferru =  0.023586351
+Error u: 1.909473e-02
+u_pred.shape after=  (105, 103, 151)
+NeuralNet(
+  (network): Sequential(
+    (0): Linear(in_features=3, out_features=64, bias=True)
+    (1): Tanh()
+    (2): Linear(in_features=64, out_features=64, bias=True)
+    (3): Tanh()
+    (4): Linear(in_features=64, out_features=64, bias=True)
+    (5): Tanh()
+    (6): Linear(in_features=64, out_features=64, bias=True)
+    (7): Tanh()
+    (8): Linear(in_features=64, out_features=64, bias=True)
+    (9): Tanh()
+    (10): Linear(in_features=64, out_features=1, bias=True)
+  )
+)
+starting Adam training
+It: 100, Time: 2.68, mse_0: 4.8735e+03, mse_f: 2.0159e+04, total loss: 2.6276e+04, Error: 9.0031e-01
+It: 200, Time: 2.72, mse_0: 5.2722e+02, mse_f: 1.1089e+04, total loss: 1.2299e+04, Error: 1.8101e-01
+It: 300, Time: 2.71, mse_0: 9.8047e+01, mse_f: 1.0344e+04, total loss: 1.0707e+04, Error: 5.9935e-02
+It: 400, Time: 2.59, mse_0: 7.9058e+01, mse_f: 1.0092e+04, total loss: 1.0256e+04, Error: 5.2186e-02
+It: 500, Time: 2.87, mse_0: 5.7864e+01, mse_f: 9.7626e+03, total loss: 9.8800e+03, Error: 4.4359e-02
+It: 600, Time: 2.81, mse_0: 5.8678e+01, mse_f: 9.2926e+03, total loss: 9.3839e+03, Error: 5.0597e-02
+It: 700, Time: 2.88, mse_0: 6.4370e+01, mse_f: 8.3133e+03, total loss: 8.4148e+03, Error: 4.8254e-02
+It: 800, Time: 2.85, mse_0: 3.8013e+01, mse_f: 6.7285e+03, total loss: 6.8621e+03, Error: 3.5831e-02
+It: 900, Time: 2.80, mse_0: 3.8672e+01, mse_f: 5.5474e+03, total loss: 5.6683e+03, Error: 3.5669e-02
+It: 1000, Time: 2.73, mse_0: 3.7695e+01, mse_f: 4.3839e+03, total loss: 4.4836e+03, Error: 3.5838e-02
+It: 1100, Time: 2.59, mse_0: 1.8150e+01, mse_f: 3.5364e+03, total loss: 3.6225e+03, Error: 2.6689e-02
+It: 1200, Time: 2.86, mse_0: 1.7937e+01, mse_f: 2.0129e+03, total loss: 2.1261e+03, Error: 1.9704e-02
+It: 1300, Time: 2.81, mse_0: 1.3184e+01, mse_f: 8.5019e+02, total loss: 9.5897e+02, Error: 2.5372e-02
+It: 1400, Time: 2.69, mse_0: 8.6951e+00, mse_f: 3.7027e+02, total loss: 4.3716e+02, Error: 2.0738e-02
+It: 1500, Time: 2.68, mse_0: 2.4826e+00, mse_f: 1.9048e+02, total loss: 2.2270e+02, Error: 1.3172e-02
+starting L-BFGS training
+It: 100, Time: 3.69, mse_0: 9.6719e-01, mse_f: 1.0672e+02, total loss: 1.2191e+02, Error: 1.3585e-02
+It: 200, Time: 4.61, mse_0: 6.1851e-01, mse_f: 5.4389e+01, total loss: 6.4230e+01, Error: 1.1388e-02
+It: 300, Time: 4.44, mse_0: 4.5806e-01, mse_f: 3.4807e+01, total loss: 4.1100e+01, Error: 1.0220e-02
+It: 400, Time: 4.26, mse_0: 3.5313e-01, mse_f: 2.4290e+01, total loss: 2.9229e+01, Error: 9.4395e-03
+It: 500, Time: 4.47, mse_0: 2.7151e-01, mse_f: 1.7268e+01, total loss: 2.1330e+01, Error: 8.4539e-03
+Error u: 8.453892e-03
+ferru =  0.032135446
+Error u: 1.603926e-02
+u_pred.shape after=  (105, 103, 201)
+NeuralNet(
+  (network): Sequential(
+    (0): Linear(in_features=3, out_features=64, bias=True)
+    (1): Tanh()
+    (2): Linear(in_features=64, out_features=64, bias=True)
+    (3): Tanh()
+    (4): Linear(in_features=64, out_features=64, bias=True)
+    (5): Tanh()
+    (6): Linear(in_features=64, out_features=64, bias=True)
+    (7): Tanh()
+    (8): Linear(in_features=64, out_features=64, bias=True)
+    (9): Tanh()
+    (10): Linear(in_features=64, out_features=1, bias=True)
+  )
+)
+starting Adam training
+It: 100, Time: 3.22, mse_0: 6.2494e+03, mse_f: 1.8548e+04, total loss: 2.8819e+04, Error: 8.0152e-01
+It: 200, Time: 3.11, mse_0: 5.5780e+02, mse_f: 1.0584e+04, total loss: 1.2150e+04, Error: 1.1255e-01
+It: 300, Time: 2.97, mse_0: 8.2206e+01, mse_f: 1.0176e+04, total loss: 1.0553e+04, Error: 6.1319e-02
+It: 400, Time: 2.80, mse_0: 7.8721e+01, mse_f: 8.9046e+03, total loss: 9.0583e+03, Error: 4.5936e-02
+It: 500, Time: 2.90, mse_0: 6.0586e+01, mse_f: 7.1392e+03, total loss: 7.2810e+03, Error: 3.7310e-02
+It: 600, Time: 2.91, mse_0: 3.8250e+01, mse_f: 4.6395e+03, total loss: 4.7562e+03, Error: 2.6290e-02
+It: 700, Time: 3.32, mse_0: 3.2414e+01, mse_f: 3.0548e+03, total loss: 3.1887e+03, Error: 2.8846e-02
+It: 800, Time: 3.04, mse_0: 1.6691e+01, mse_f: 2.1204e+03, total loss: 2.2191e+03, Error: 1.8481e-02
+It: 900, Time: 2.75, mse_0: 1.4918e+01, mse_f: 1.0172e+03, total loss: 1.1080e+03, Error: 2.4035e-02
+It: 1000, Time: 2.83, mse_0: 9.1164e+00, mse_f: 5.0743e+02, total loss: 6.0288e+02, Error: 1.9897e-02
+It: 1100, Time: 2.64, mse_0: 3.7588e+00, mse_f: 2.7578e+02, total loss: 3.2360e+02, Error: 1.3639e-02
+It: 1200, Time: 2.69, mse_0: 3.7968e+00, mse_f: 1.4187e+02, total loss: 1.5709e+02, Error: 1.7381e-02
+It: 1300, Time: 2.71, mse_0: 1.8142e+00, mse_f: 9.4462e+01, total loss: 1.0518e+02, Error: 1.0225e-02
+It: 1400, Time: 2.68, mse_0: 9.7611e-01, mse_f: 6.7605e+01, total loss: 7.4106e+01, Error: 1.6739e-02
+It: 1500, Time: 2.73, mse_0: 1.9816e+00, mse_f: 5.7154e+01, total loss: 6.6522e+01, Error: 1.5183e-02
+starting L-BFGS training
+It: 100, Time: 3.69, mse_0: 5.3193e-01, mse_f: 4.2074e+01, total loss: 4.7360e+01, Error: 1.2490e-02
+It: 200, Time: 4.80, mse_0: 4.0636e-01, mse_f: 2.7077e+01, total loss: 3.1366e+01, Error: 1.2196e-02
+It: 300, Time: 4.59, mse_0: 3.9608e-01, mse_f: 1.9401e+01, total loss: 2.3977e+01, Error: 1.1562e-02
+It: 400, Time: 4.54, mse_0: 3.8315e-01, mse_f: 1.5065e+01, total loss: 1.9490e+01, Error: 1.1473e-02
+It: 500, Time: 4.52, mse_0: 3.2772e-01, mse_f: 1.2329e+01, total loss: 1.6151e+01, Error: 1.0973e-02
+Error u: 1.097337e-02
+ferru =  0.027224746
+Error u: 1.481622e-02
+u_pred.shape after=  (105, 103, 251)
+NeuralNet(
+  (network): Sequential(
+    (0): Linear(in_features=3, out_features=64, bias=True)
+    (1): Tanh()
+    (2): Linear(in_features=64, out_features=64, bias=True)
+    (3): Tanh()
+    (4): Linear(in_features=64, out_features=64, bias=True)
+    (5): Tanh()
+    (6): Linear(in_features=64, out_features=64, bias=True)
+    (7): Tanh()
+    (8): Linear(in_features=64, out_features=64, bias=True)
+    (9): Tanh()
+    (10): Linear(in_features=64, out_features=1, bias=True)
+  )
+)
+starting Adam training
+It: 100, Time: 2.94, mse_0: 2.5918e+04, mse_f: 1.8361e+04, total loss: 4.8105e+04, Error: 9.5579e-01
+It: 200, Time: 2.81, mse_0: 9.5047e+02, mse_f: 1.3033e+04, total loss: 1.5258e+04, Error: 3.7032e-01
+It: 300, Time: 3.13, mse_0: 3.0024e+02, mse_f: 1.0868e+04, total loss: 1.1551e+04, Error: 1.2094e-01
+It: 400, Time: 2.95, mse_0: 7.7328e+01, mse_f: 9.3276e+03, total loss: 9.5621e+03, Error: 3.8113e-02
+It: 500, Time: 2.85, mse_0: 5.7305e+01, mse_f: 7.1198e+03, total loss: 7.3403e+03, Error: 3.9146e-02
+It: 600, Time: 2.74, mse_0: 4.0441e+01, mse_f: 4.8721e+03, total loss: 5.0119e+03, Error: 3.4845e-02
+It: 700, Time: 2.47, mse_0: 4.4744e+01, mse_f: 3.1811e+03, total loss: 3.3227e+03, Error: 3.0197e-02
+It: 800, Time: 2.82, mse_0: 2.5584e+01, mse_f: 2.5897e+03, total loss: 2.7326e+03, Error: 2.5717e-02
+It: 900, Time: 2.66, mse_0: 1.9108e+01, mse_f: 2.2495e+03, total loss: 2.3495e+03, Error: 2.3945e-02
+It: 1000, Time: 2.79, mse_0: 1.4276e+01, mse_f: 2.0837e+03, total loss: 2.1722e+03, Error: 2.2350e-02
+It: 1100, Time: 2.78, mse_0: 9.3319e+00, mse_f: 1.8158e+03, total loss: 1.8933e+03, Error: 1.7798e-02
+It: 1200, Time: 2.71, mse_0: 7.7631e+00, mse_f: 6.2187e+02, total loss: 6.9892e+02, Error: 1.1639e-02
+It: 1300, Time: 2.53, mse_0: 1.4885e+01, mse_f: 3.7607e+02, total loss: 4.2762e+02, Error: 2.3764e-02
+It: 1400, Time: 2.79, mse_0: 8.5334e+00, mse_f: 1.4885e+02, total loss: 1.8764e+02, Error: 1.0490e-02
+It: 1500, Time: 2.66, mse_0: 1.8589e+00, mse_f: 7.6743e+01, total loss: 8.6281e+01, Error: 7.2614e-03
+starting L-BFGS training
+It: 100, Time: 3.51, mse_0: 2.8945e-01, mse_f: 3.3502e+01, total loss: 3.8908e+01, Error: 1.1887e-02
+It: 200, Time: 4.80, mse_0: 2.3105e-01, mse_f: 1.9087e+01, total loss: 2.4215e+01, Error: 1.1076e-02
+It: 300, Time: 4.72, mse_0: 1.6535e-01, mse_f: 1.3168e+01, total loss: 1.7335e+01, Error: 1.1100e-02
+It: 400, Time: 4.45, mse_0: 1.8595e-01, mse_f: 9.9304e+00, total loss: 1.3546e+01, Error: 1.1358e-02
+It: 500, Time: 4.43, mse_0: 1.4829e-01, mse_f: 7.3741e+00, total loss: 1.0583e+01, Error: 1.1227e-02
+Error u: 1.122717e-02
+ferru =  0.019761514
+Error u: 1.411513e-02
+u_pred.shape after=  (105, 103, 301)
+NeuralNet(
+  (network): Sequential(
+    (0): Linear(in_features=3, out_features=64, bias=True)
+    (1): Tanh()
+    (2): Linear(in_features=64, out_features=64, bias=True)
+    (3): Tanh()
+    (4): Linear(in_features=64, out_features=64, bias=True)
+    (5): Tanh()
+    (6): Linear(in_features=64, out_features=64, bias=True)
+    (7): Tanh()
+    (8): Linear(in_features=64, out_features=64, bias=True)
+    (9): Tanh()
+    (10): Linear(in_features=64, out_features=1, bias=True)
+  )
+)
+starting Adam training
+It: 100, Time: 2.67, mse_0: 1.2972e+04, mse_f: 1.9780e+04, total loss: 3.7890e+04, Error: 9.0284e-01
+It: 200, Time: 2.85, mse_0: 1.2314e+03, mse_f: 1.1860e+04, total loss: 1.3847e+04, Error: 2.9504e-01
+It: 300, Time: 2.71, mse_0: 2.6789e+02, mse_f: 9.5690e+03, total loss: 1.0147e+04, Error: 6.1732e-02
+It: 400, Time: 2.77, mse_0: 1.3011e+02, mse_f: 7.1337e+03, total loss: 7.5029e+03, Error: 5.1855e-02
+It: 500, Time: 2.71, mse_0: 6.0601e+01, mse_f: 4.8978e+03, total loss: 5.0865e+03, Error: 3.3969e-02
+It: 600, Time: 2.69, mse_0: 3.4548e+01, mse_f: 3.0434e+03, total loss: 3.1999e+03, Error: 2.4277e-02
+It: 700, Time: 2.73, mse_0: 1.7410e+01, mse_f: 1.9504e+03, total loss: 2.0762e+03, Error: 2.0547e-02
+It: 800, Time: 2.95, mse_0: 9.8166e+00, mse_f: 1.2559e+03, total loss: 1.3175e+03, Error: 1.9621e-02
+It: 900, Time: 2.48, mse_0: 5.3681e+00, mse_f: 6.9419e+02, total loss: 7.1940e+02, Error: 1.4495e-02
+It: 1000, Time: 2.42, mse_0: 5.8684e+00, mse_f: 2.1576e+02, total loss: 2.5214e+02, Error: 1.8759e-02
+It: 1100, Time: 2.51, mse_0: 1.1871e+00, mse_f: 1.2922e+02, total loss: 1.4860e+02, Error: 1.6295e-02
+It: 1200, Time: 3.00, mse_0: 2.0682e+00, mse_f: 8.4884e+01, total loss: 1.0149e+02, Error: 1.3483e-02
+It: 1300, Time: 2.98, mse_0: 1.2270e+00, mse_f: 5.7334e+01, total loss: 6.7723e+01, Error: 1.2184e-02
+It: 1400, Time: 2.85, mse_0: 3.5371e-01, mse_f: 4.2008e+01, total loss: 4.8370e+01, Error: 9.5597e-03
+It: 1500, Time: 2.80, mse_0: 2.0238e+00, mse_f: 3.6726e+01, total loss: 4.8105e+01, Error: 1.2403e-02
+starting L-BFGS training
+It: 100, Time: 3.82, mse_0: 1.5790e-01, mse_f: 2.1556e+01, total loss: 2.6797e+01, Error: 9.7690e-03
+It: 200, Time: 4.43, mse_0: 1.7373e-01, mse_f: 1.5378e+01, total loss: 2.0878e+01, Error: 9.6107e-03
+It: 300, Time: 4.64, mse_0: 1.4058e-01, mse_f: 1.1897e+01, total loss: 1.7395e+01, Error: 9.3744e-03
+It: 400, Time: 4.91, mse_0: 1.0693e-01, mse_f: 1.0016e+01, total loss: 1.4633e+01, Error: 9.2160e-03
+It: 500, Time: 4.73, mse_0: 8.5877e-02, mse_f: 8.4256e+00, total loss: 1.2506e+01, Error: 9.1934e-03
+Error u: 9.193431e-03
+ferru =  0.01821358
+Error u: 1.337012e-02
+u_pred.shape after=  (105, 103, 351)
+NeuralNet(
+  (network): Sequential(
+    (0): Linear(in_features=3, out_features=64, bias=True)
+    (1): Tanh()
+    (2): Linear(in_features=64, out_features=64, bias=True)
+    (3): Tanh()
+    (4): Linear(in_features=64, out_features=64, bias=True)
+    (5): Tanh()
+    (6): Linear(in_features=64, out_features=64, bias=True)
+    (7): Tanh()
+    (8): Linear(in_features=64, out_features=64, bias=True)
+    (9): Tanh()
+    (10): Linear(in_features=64, out_features=1, bias=True)
+  )
+)
+starting Adam training
+It: 100, Time: 2.76, mse_0: 7.9997e+03, mse_f: 2.1521e+04, total loss: 3.3159e+04, Error: 8.8024e-01
+It: 200, Time: 3.39, mse_0: 5.1338e+02, mse_f: 1.1002e+04, total loss: 1.2439e+04, Error: 1.3676e-01
+It: 300, Time: 2.92, mse_0: 1.7372e+02, mse_f: 9.9118e+03, total loss: 1.0316e+04, Error: 7.0150e-02
+It: 400, Time: 2.65, mse_0: 7.3657e+01, mse_f: 6.9344e+03, total loss: 7.1957e+03, Error: 3.6124e-02
+It: 500, Time: 2.94, mse_0: 4.8695e+01, mse_f: 4.6788e+03, total loss: 4.8375e+03, Error: 3.4288e-02
+It: 600, Time: 2.87, mse_0: 2.9359e+01, mse_f: 2.5723e+03, total loss: 2.6837e+03, Error: 2.0960e-02
+It: 700, Time: 2.76, mse_0: 1.3466e+01, mse_f: 1.3215e+03, total loss: 1.4284e+03, Error: 1.4180e-02
+It: 800, Time: 2.82, mse_0: 8.0147e+00, mse_f: 6.0581e+02, total loss: 7.1000e+02, Error: 1.3033e-02
+It: 900, Time: 2.90, mse_0: 3.1477e+00, mse_f: 3.1958e+02, total loss: 3.6809e+02, Error: 8.7320e-03
+It: 1000, Time: 3.24, mse_0: 1.6369e+00, mse_f: 1.9433e+02, total loss: 2.1925e+02, Error: 7.0683e-03
+It: 1100, Time: 3.34, mse_0: 9.0815e-01, mse_f: 1.2817e+02, total loss: 1.4319e+02, Error: 6.8007e-03
+It: 1200, Time: 3.34, mse_0: 4.7997e-01, mse_f: 8.4282e+01, total loss: 9.3908e+01, Error: 5.7713e-03
+It: 1300, Time: 2.73, mse_0: 2.7332e-01, mse_f: 4.9473e+01, total loss: 5.7905e+01, Error: 6.5661e-03
+It: 1400, Time: 3.05, mse_0: 2.0115e-01, mse_f: 3.5113e+01, total loss: 4.1565e+01, Error: 6.3856e-03
+It: 1500, Time: 3.79, mse_0: 1.6343e-01, mse_f: 2.6857e+01, total loss: 3.2198e+01, Error: 5.4306e-03
+starting L-BFGS training
+It: 100, Time: 4.71, mse_0: 1.2320e-01, mse_f: 1.7857e+01, total loss: 2.2410e+01, Error: 6.6708e-03
+It: 200, Time: 4.42, mse_0: 9.3853e-02, mse_f: 1.1303e+01, total loss: 1.4177e+01, Error: 6.7095e-03
+It: 300, Time: 4.84, mse_0: 7.3799e-02, mse_f: 7.6097e+00, total loss: 9.6567e+00, Error: 6.6406e-03
+It: 400, Time: 5.52, mse_0: 7.0955e-02, mse_f: 5.5684e+00, total loss: 7.0314e+00, Error: 6.2809e-03
+It: 500, Time: 5.59, mse_0: 6.8260e-02, mse_f: 4.1526e+00, total loss: 5.1309e+00, Error: 6.3675e-03
+Error u: 6.367545e-03
+ferru =  0.015840553
+Error u: 1.256263e-02
+u_pred.shape after=  (105, 103, 401)
