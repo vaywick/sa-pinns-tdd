@@ -15,22 +15,12 @@ It addresses critical challenges in structural engineering and supports advanced
 
 # Comparison
 
-
-\begin{table}[htb]
-	\centering
-	\begin{tabular}{cccccccc}
-		\toprule  
-		Model & RL2 \\
-		\hline
-		%		\midrule 
-		bc-PINN \citep{mattey2022novel} & $1.68 \mathrm{e}-2$ \\
-		original SA-PINNs & $(2.10\pm 1.21) \mathrm{e}-2$ \\
-		PT-PINN \citep{guo2023pre} & $(9.7\pm 0.4) \mathrm{e}-3$ \\
-		SA-PINNs-TDD & $\mathbf{(3.76 \pm 1.01) e-4 }$ \\
-		\bottomrule 
-	\end{tabular}%
-	\caption{RL2 errors are compared among the different variants of PINNs model.}
-\end{table}
+| Model                             | RL2                             |
+|----------------------------------|----------------------------------|
+| bc-PINN [@mattey2022novel]       | $1.68 \mathrm{e}-2$            |
+| original SA-PINNs                | $(2.10\pm 1.21) \mathrm{e}-2$  |
+| PT-PINN [@guo2023pre]            | $(9.7\pm 0.4) \mathrm{e}-3$    |
+| SA-PINNs-TDD                     | $\mathbf{(3.76 \pm 1.01) e-4 }$|
 
 
 
