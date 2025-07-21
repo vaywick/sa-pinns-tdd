@@ -2,7 +2,7 @@
 
 Self-adaptive physics-informed neural networks (SA-PINNs) [Journal of Computational Physics, 474:111722, 2023] have demonstrated superior accuracy over vanilla PINNs in solving partial differential equations with steep gradients by assigning higher weights to critical regions.
 However, as the spatio-temporal domain extends, SA-PINNs often struggle to maintain high solution accuracy.
-To overcome this limitation, we propose SA-PINNs with time-domain decomposition (SA-PINNs-TDD), which enable accurate and stable training across extended temporal domains, as demonstrated on the nonlinear Schr\"{o}dinger equation.
+To overcome this limitation, we propose SA-PINNs with time-domain decomposition (SA-PINNs-TDD), which enable accurate and stable training across extended temporal domains, as demonstrated on the nonlinear Schrödinger (NLS) equation.
 For the Allen-Cahn equation, SA-PINNs-TDD achieves 56 times greater accuracy than standard SA-PINNs, owing to its refined distribution of adaptive weights.
 The model also proves effective for long-time simulations of the 2D heat conduction (HC) equation.
 SA-PINNs-TDD adopt a sequential domain-wise training strategy, where thorough pre-training of the initial subdomain is essential to establish accurate pseudo initial conditions and reduce error accumulation in subsequent domains.
