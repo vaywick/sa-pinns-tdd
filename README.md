@@ -15,12 +15,15 @@ It addresses critical challenges in structural engineering and supports advanced
 
 # Comparison
 
+Allen-Cahn：
 | Model             | RL2                  |
 |-------------------|----------------------|
 | bc-PINN       | 1.68e-2              |
 | original SA-PINNs | (2.10±1.21)e-2       |
 | PT-PINN      | (9.7±0.4)e-3         |
 | SA-PINNs-TDD      | **(3.76±1.01)e-4**   |
+
+NLS：
 
 
 
