@@ -10,10 +10,11 @@ Pre-training the initial domain requires more epochs to achieve convergence, whi
 Solving the NLS equation by SA-PINNs-TDD is crucial for advancing the understanding of rogue waves in ocean and optical engineering, enabling accurate prediction and control of these extreme events.
 High-accuracy solutions of the HC equation serve as a foundational tool for thermal transport modeling, enabling precise heat transfer control when integrated with our proposed model.
 Furthermore, SA-PINNs-TDD using 1 partition successfully resolves the dynamics of both Euler-Bernoulli and Timoshenko beams, overcoming the limitations reported in previous SA-PINNs [Engineering Applications of Artificial Intelligence 133 (2024) 108085].
-Compared to their proposed causal PINNs with transfer learning, our model achieves an order-of-magnitude improvement in accuracy.
+Compared to their proposed causal PINNs with transfer learning (CPINNs-TL), our model achieves an order-of-magnitude improvement in accuracy.
 It addresses critical challenges in structural engineering and supports advanced methodologies for structural design, optimization, and control.
 
-# Comparison
+# Benchmark
+Prediction accuracy across different models is assessed using the relative $L_2$-norm (RL2) error.
 
 Allen-Cahn：
 | Model             | RL2                  |
@@ -28,7 +29,7 @@ First-order rogue wave of NLS equation (SA-PINNs-TDD using 5 partition training)
 |-------|-------------------|-------------------|-------------------|
 | RL2   | (1.52±0.04)e-1    | (1.11±0.05)e-1    | **(3.02±0.92)e-4** |
 
-HC equation：
+HC equation (subdomain number tests)：
 | Group  | Total number | RL2                |
 |--------|--------------|--------------------|
 | T=20   | 1            | (1.56±0.30)e-3     |
@@ -37,6 +38,18 @@ HC equation：
 | T=40   | 1            | (2.52±1.30)e-3     |
 |        | 4            | (7.19±1.07)e-4     |
 |        | 8            | **(3.44±0.28)e-4** |
+
+Timoshenko beam:
+| model | SA-PINNs-TDD-1P | CPINNs-TL |
+|-------|-----------------|-----------|
+| $u$-RL2   | **8.04e-6**     | 1.51e-4   |
+| $\theta$-RL2 | **5.36e-6**     | 1.12e-4   |
+
+Euler-Bernoulli beam:
+| model | SA-PINNs-TDD-1P | CPINNs-TL |
+|-------|-----------------|-----------|
+| $u$-RL2 | **2.34e-4**     | 1.35e-2   |
+
 
 # Framework
 
