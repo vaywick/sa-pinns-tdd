@@ -15,7 +15,7 @@ It addresses critical challenges in structural engineering and supports advanced
 
 # Benchmark
 
-## Allen-Cahn (SA-PINNs-TDD using 2 partition training)：
+### Allen-Cahn (SA-PINNs-TDD using 2 partition training)：
 Prediction accuracy across different models is assessed using the relative $L_2$-norm (RL2) error.
 
 | Model             | RL2                  |
@@ -26,7 +26,7 @@ Prediction accuracy across different models is assessed using the relative $L_2$
 | SA-PINNs-TDD      | **(3.76±1.01)e-4**   |
 
 
-## First-order rogue wave of NLS equation (subdomain number test)：
+### First-order rogue wave of NLS equation (subdomain number test)：
 | Total number | RL2                |
 |--------------|--------------------|
 | 1            | (1.11±0.05)e-1     |
@@ -35,19 +35,19 @@ Prediction accuracy across different models is assessed using the relative $L_2$
 | 5            | **(3.02±0.92)e-4** |
 | 7            | (2.72±0.74)e-4     |
 
-### Comparisons：
+#### Comparisons：
 | Model | vanilla PINNs     | original SA-PINNs | SA-PINNs-TDD      |
 |-------|-------------------|-------------------|-------------------|
 | RL2   | (1.52±0.04)e-1    | (1.11±0.05)e-1    | **(3.02±0.92)e-4** |
 
-## Second-order rogue wave of NLS equation (subdomain number test)：
+### Second-order rogue wave of NLS equation (subdomain number test)：
 | Total number | RL2                |
 |--------------|--------------------|
 | 1            | (1.60±0.05)e-1     |
 | 5            | (9.21±7.12)e-4     |
 | 7            | **(6.05±1.99)e-4** |
 
-## HC equation (subdomain number tests)：
+### HC equation (subdomain number tests)：
 | Group  | Total number | RL2                |
 |--------|--------------|--------------------|
 | T=20   | 1            | (1.56±0.30)e-3     |
@@ -57,13 +57,13 @@ Prediction accuracy across different models is assessed using the relative $L_2$
 |        | 4            | (7.19±1.07)e-4     |
 |        | 8            | **(3.44±0.28)e-4** |
 
-## Timoshenko beam:
+### Timoshenko beam:
 | model | SA-PINNs-TDD-1P | CPINNs-TL |
 |-------|-----------------|-----------|
 | $u$-RL2   | **8.04e-6**     | 1.51e-4   |
 | $\theta$-RL2 | **5.36e-6**     | 1.12e-4   |
 
-## Euler-Bernoulli beam:
+### Euler-Bernoulli beam:
 | model | SA-PINNs-TDD-1P | CPINNs-TL |
 |-------|-----------------|-----------|
 | $u$-RL2 | **2.34e-4**     | 1.35e-2   |
