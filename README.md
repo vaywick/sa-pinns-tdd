@@ -23,9 +23,20 @@ Allen-Cahn：
 | PT-PINN      | (9.7±0.4)e-3         |
 | SA-PINNs-TDD      | **(3.76±1.01)e-4**   |
 
-NLS：
+First-order rogue wave of NLS equation (SA-PINNs-TDD using 5 partition training)：
+| Model | vanilla PINNs     | original SA-PINNs | SA-PINNs-TDD      |
+|-------|-------------------|-------------------|-------------------|
+| RL2   | (1.52±0.04)e-1    | (1.11±0.05)e-1    | **(3.02±0.92)e-4** |
 
-
+HC equation：
+| Group  | Total number | RL2                |
+|--------|--------------|--------------------|
+| T=20   | 1            | (1.56±0.30)e-3     |
+|        | 4            | (3.57±0.29)e-4     |
+|        | 8            | **(2.69±0.20)e-4** |
+| T=40   | 1            | (2.52±1.30)e-3     |
+|        | 4            | (7.19±1.07)e-4     |
+|        | 8            | **(3.44±0.28)e-4** |
 
 # Framework
 
