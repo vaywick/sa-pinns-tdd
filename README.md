@@ -16,7 +16,7 @@ It addresses critical challenges in structural engineering and supports advanced
 # Benchmark
 Prediction accuracy across different models is assessed using the relative $L_2$-norm (RL2) error.
 
-Allen-Cahn：
+Allen-Cahn (SA-PINNs-TDD using 2 partition training)：
 | Model             | RL2                  |
 |-------------------|----------------------|
 | bc-PINN       | 1.68e-2              |
@@ -24,10 +24,26 @@ Allen-Cahn：
 | PT-PINN      | (9.7±0.4)e-3         |
 | SA-PINNs-TDD      | **(3.76±1.01)e-4**   |
 
-First-order rogue wave of NLS equation (SA-PINNs-TDD using 5 partition training)：
+First-order rogue wave of NLS equation (subdomain test)：
 | Model | vanilla PINNs     | original SA-PINNs | SA-PINNs-TDD      |
 |-------|-------------------|-------------------|-------------------|
 | RL2   | (1.52±0.04)e-1    | (1.11±0.05)e-1    | **(3.02±0.92)e-4** |
+
+First-order rogue wave of NLS equation (subdomain test)：
+| Total number | RL2                |
+|--------------|--------------------|
+| 1            | (1.11±0.05)e-1     |
+| 3            | (4.09±1.87)e-4     |
+| 4            | (7.19±4.08)e-4     |
+| 5            | **(3.02±0.92)e-4** |
+| 7            | (2.72±0.74)e-4     |
+
+Second-order rogue wave of NLS equation (subdomain test)：
+| Total number | RL2                |
+|--------------|--------------------|
+| 1            | (1.60±0.05)e-1     |
+| 5            | (9.21±7.12)e-4     |
+| 7            | **(6.05±1.99)e-4 ** |
 
 HC equation (subdomain number tests)：
 | Group  | Total number | RL2                |
