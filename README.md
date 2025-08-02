@@ -77,3 +77,5 @@ The Euler–Bernoulli-new and Allen–Cahn (AC) simulations are conducted in Ten
 PyTorch version 2.0.0 or higher
 
 tensorflow version = 2.3.0 and keras version = 2.4.3
+
+If you have any questions about the code, please submit them via GitHub Issues.
