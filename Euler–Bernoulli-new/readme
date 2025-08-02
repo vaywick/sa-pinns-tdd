@@ -4,3 +4,6 @@ Euler Bernoulli beam dynamic is successfully resolved by our newly developed SA-
 which previous studies [Engineering Applications of Artificial Intelligence 133 (2024) 108085] failed to accomplish with their proposed SA-PINNs.
 
 Furthermore, our approach achieves significantly higher accuracy-exceeding that of the causal PINNs with transfer learning by 58 times, as shown in the Table.
+
+The rl2-compute.py script provides the computation of the relative L2-norm error, based on a consistent formula applied to both our proposed model and the 
+causal PINNs model with transfer learning.
