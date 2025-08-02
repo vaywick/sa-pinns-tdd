@@ -1,6 +1,5 @@
 import numpy as np
 import pickle
-import torch
 
 # 网格点的数量
 num_points_x = 103
@@ -115,6 +114,7 @@ print('relative-l2 error= ', error_u)
 error_u_causal = np.linalg.norm(cau_perror_u, 2) / np.linalg.norm(cau_Exact, 2)
 
 print('cau-relative-l2 error= ', error_u_causal)
+
 
 
 
