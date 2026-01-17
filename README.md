@@ -74,7 +74,8 @@ Comparisons of the RL2Es for the $u$ and $v$ solutions of the Burgers’ equatio
 
 ### Beam equations
 
-SA-PINNs-TDD using single subdomain accurately models Euler-Bernoulli and Timoshenko beam dynamics in Euler–Bernoulli-new and Timoshenko-new folders, overcoming the limitations reported in prior studies with their proposed SA-PINNs.
+SA-PINNs-TDD using single subdomain accurately models Euler-Bernoulli and Timoshenko beam dynamics in Euler–Bernoulli-new and Timoshenko-new folders, overcoming the limitations reported in prior studies with their proposed SA-PINNs [Engineering Applications of Artificial Intelligence 133 (2024) 108085].
+
 # Framework
 
 SA-PINNs-TDD are implemented using either the TensorFlow or PyTorch frameworks.
