@@ -1,0 +1,2 @@
+2D Navier-Stokes equation is accurately solved by SA-PINNs-TDD using uniform partitioning.
+However, the single-subdomain training approach-equivalent to the original SA-PINNs-achieve low accuracy.
