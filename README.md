@@ -72,6 +72,9 @@ RL2Es for $u(t,x,y)$, $v(t,x,y)$, and $p(t,x,y)$ in the single-subdomain and 4-s
 
 Comparisons of the RL2Es for the $u$ and $v$ solutions of the Burgers’ equation across three cases.
 
+### Beam equations
+
+SA-PINNs-TDD using single subdomain accurately models Euler-Bernoulli and Timoshenko beam dynamics in Euler–Bernoulli-new and Timoshenko-new folders, overcoming the limitations reported in prior studies with their proposed SA-PINNs.
 # Framework
 
 SA-PINNs-TDD are implemented using either the TensorFlow or PyTorch frameworks.
