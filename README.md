@@ -9,7 +9,7 @@ SA-PINNs-TDD adopt a sequential domain-wise training strategy, where thorough pr
 While the initial subdomain requires more epochs to reach convergence, subsequent subdomains benefit from transferred information, resulting in accelerated optimization.
 
 
-#### Each folder in our repository is detailed in its respective readme.md file.
+#### Each folder in our repository is detailed in its respective readme file.
 
 # Benchmark
 
