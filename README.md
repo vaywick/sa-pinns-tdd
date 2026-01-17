@@ -51,7 +51,7 @@ Prediction accuracy across different models is assessed using the relative $L_2$
 
 | Total number | Function | RL2E                  |
 |--------------|----------|-----------------------|
-| 1            | $u$      | $1.84e-1 ± 4.73e-2$ |
+| 1            | $u$      | $1.84\mathrm{e}-1 ± 4.73\mathrm{e}-2$ |
 | 1            | $v$      | $1.81\mathrm{e}-1 ± 4.65\mathrm{e}-2$ |
 | 1            | $p$      | $1.02\mathrm{e}-1 ± 1.45\mathrm{e}-2$ |
 | 4            | $u$      | $\mathbf{3.83\mathrm{e}-2 ± 6.25\mathrm{e}-3}$ |
