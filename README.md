@@ -51,12 +51,12 @@ Prediction accuracy across different models is assessed using the relative $L_2$
 
 | Total number | Function | RL2E                  |
 |--------------|----------|-----------------------|
-| 1            | $u$      | $1.84\mathrm{e}-1 \pm 4.73\mathrm{e}-2$ |
-| 1            | $v$      | $1.81\mathrm{e}-1 \pm 4.65\mathrm{e}-2$ |
-| 1            | $p$      | $1.02\mathrm{e}-1 \pm 1.45\mathrm{e}-2$ |
-| 4            | $u$      | $\mathbf{3.83\mathrm{e}-2 \pm 6.25\mathrm{e}-3}$ |
-| 4            | $v$      | $\mathbf{3.82\mathrm{e}-2 \pm 5.12\mathrm{e}-3}$ |
-| 4            | $p$      | $\mathbf{6.00\mathrm{e}-2 \pm 6.33\mathrm{e}-3}$ |
+| 1            | $u$      | $1.84e-1 ± 4.73e-2$ |
+| 1            | $v$      | $1.81\mathrm{e}-1 ± 4.65\mathrm{e}-2$ |
+| 1            | $p$      | $1.02\mathrm{e}-1 ± 1.45\mathrm{e}-2$ |
+| 4            | $u$      | $\mathbf{3.83\mathrm{e}-2 ± 6.25\mathrm{e}-3}$ |
+| 4            | $v$      | $\mathbf{3.82\mathrm{e}-2 ± 5.12\mathrm{e}-3}$ |
+| 4            | $p$      | $\mathbf{6.00\mathrm{e}-2 ± 6.33\mathrm{e}-3}$ |
 
 *RL2Es for $u(t,x,y)$, $v(t,x,y)$, and $p(t,x,y)$ in the single-subdomain and 4-subdomain simulations of the Navier-Stokes equation.*
 
