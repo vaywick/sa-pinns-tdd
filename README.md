@@ -58,7 +58,7 @@ Prediction accuracy across different models is assessed using the relative $L_2$
 | 4            | $v$      | $\mathbf{3.82\mathrm{e}-2 ± 5.12\mathrm{e}-3}$ |
 | 4            | $p$      | $\mathbf{6.00\mathrm{e}-2 ± 6.33\mathrm{e}-3}$ |
 
-*RL2Es for $u(t,x,y)$, $v(t,x,y)$, and $p(t,x,y)$ in the single-subdomain and 4-subdomain simulations of the Navier-Stokes equation.*
+RL2Es for $u(t,x,y)$, $v(t,x,y)$, and $p(t,x,y)$ in the single-subdomain and 4-subdomain simulations of the Navier-Stokes equation.
 
 ### 2D Burgers' equation：
 | Total number     | Function | RL2E                  |
