@@ -47,6 +47,29 @@ Prediction accuracy across different models is assessed using the relative $L_2$
 | 7            | **(6.05±1.99)e-4** |
 
 
+### 2D Navier-Stokes equation：
+
+| Total number | Function | RL2E                  |
+|--------------|----------|-----------------------|
+| 1            | $u$      | $1.84\mathrm{e}-1 \pm 4.73\mathrm{e}-2$ |
+| 1            | $v$      | $1.81\mathrm{e}-1 \pm 4.65\mathrm{e}-2$ |
+| 1            | $p$      | $1.02\mathrm{e}-1 \pm 1.45\mathrm{e}-2$ |
+| 4            | $u$      | $\mathbf{3.83\mathrm{e}-2 \pm 6.25\mathrm{e}-3}$ |
+| 4            | $v$      | $\mathbf{3.82\mathrm{e}-2 \pm 5.12\mathrm{e}-3}$ |
+| 4            | $p$      | $\mathbf{6.00\mathrm{e}-2 \pm 6.33\mathrm{e}-3}$ |
+
+### 2D Burgers' equation：
+| Total number     | Function | RL2E                  |
+|------------------|----------|-----------------------|
+| 1                | $u$      | $1.36\mathrm{e}-1 \pm 1.16\mathrm{e}-1$ |
+| 1                | $v$      | $1.55\mathrm{e}-1 \pm 1.93\mathrm{e}-1$ |
+| 4(Uniform)       | $u$      | $1.16\mathrm{e}-2 \pm 3.61\mathrm{e}-3$ |
+| 4(Uniform)       | $v$      | $4.55\mathrm{e}-3 \pm 2.12\mathrm{e}-3$ |
+| 4(Nonuniform)    | $u$      | $\mathbf{2.88\mathrm{e}-3 \pm 7.43\mathrm{e}-4}$ |
+| 4(Nonuniform)    | $v$      | $\mathbf{1.91\mathrm{e}-3 \pm 8.33\mathrm{e}-5}$ |
+
+*Table: Comparisons of the RL2Es for the $u$ and $v$ solutions of the Burgers’ equation across three cases.*
+
 # Framework
 
 SA-PINNs-TDD are implemented using either the TensorFlow or PyTorch frameworks.
