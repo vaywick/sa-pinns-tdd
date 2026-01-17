@@ -31,7 +31,6 @@ Prediction accuracy across different models is assessed using the relative $L_2$
 |--------------|--------------------|
 | 1            | (1.11±0.05)e-1     |
 | 3            | (4.09±1.87)e-4     |
-| 4            | (7.19±4.08)e-4     |
 | 5            | **(3.02±0.92)e-4** |
 | 7            | (2.72±0.74)e-4     |
 
@@ -46,27 +45,6 @@ Prediction accuracy across different models is assessed using the relative $L_2$
 | 1            | (1.60±0.05)e-1     |
 | 5            | (9.21±7.12)e-4     |
 | 7            | **(6.05±1.99)e-4** |
-
-### HC equation (subdomain number tests)：
-| Group  | Total number | RL2                |
-|--------|--------------|--------------------|
-| T=20   | 1            | (1.56±0.30)e-3     |
-|        | 4            | (3.57±0.29)e-4     |
-|        | 8            | **(2.69±0.20)e-4** |
-| T=40   | 1            | (2.52±1.30)e-3     |
-|        | 4            | (7.19±1.07)e-4     |
-|        | 8            | **(3.44±0.28)e-4** |
-
-### Timoshenko beam:
-| model | SA-PINNs-TDD-1P | CPINNs-TL |
-|-------|-----------------|-----------|
-| $u$-RL2   | **8.04e-6**     | 1.51e-4   |
-| $\theta$-RL2 | **5.36e-6**     | 1.12e-4   |
-
-### Euler-Bernoulli beam:
-| model | SA-PINNs-TDD-1P | CPINNs-TL |
-|-------|-----------------|-----------|
-| $u$-RL2 | **2.34e-4**     | 1.35e-2   |
 
 
 # Framework
