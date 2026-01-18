@@ -9,9 +9,10 @@ SA-PINNs-TDD adopt a sequential domain-wise training strategy, where thorough pr
 While the initial subdomain requires more epochs to reach convergence, subsequent subdomains benefit from transferred information, resulting in accelerated optimization.
 
 
-#### Each folder in our repository is detailed in its respective readme file.
 #### Animations of the multi-scale and steep-gradient phenomena for the 2D Burgers’ equation are provided in the “Burgers2D” folder.
 #### Prediction accuracy across different models is assessed using the relative $L_2$-norm error (RL2E).
+
+#### Each folder in our repository is detailed in its respective readme file.
 
 AC:  Allen-Cahn equation
 
