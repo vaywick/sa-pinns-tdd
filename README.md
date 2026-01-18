@@ -43,17 +43,19 @@ Timoshenko-new: Timoshenko beam equation
 
 
 ### First-order rogue wave of NLS equation (subdomain number test)：
+
+#### Comparisons：
+| Model | vanilla PINNs     | original SA-PINNs | SA-PINNs-TDD      |
+|-------|-------------------|-------------------|-------------------|
+| RL2E   | (1.52±0.04)e-1    | (1.11±0.05)e-1    | **(3.02±0.92)e-4** |
+
+
 | Total number | RL2E                |
 |--------------|--------------------|
 | 1            | (1.11±0.05)e-1     |
 | 3            | (4.09±1.87)e-4     |
 | 5            | **(3.02±0.92)e-4** |
 | 7            | (2.72±0.74)e-4     |
-
-#### Comparisons：
-| Model | vanilla PINNs     | original SA-PINNs | SA-PINNs-TDD      |
-|-------|-------------------|-------------------|-------------------|
-| RL2E   | (1.52±0.04)e-1    | (1.11±0.05)e-1    | **(3.02±0.92)e-4** |
 
 ### Second-order rogue wave of NLS equation (subdomain number test)：
 | Total number | RL2E                |
