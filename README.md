@@ -2,7 +2,7 @@
 
 Self-adaptive physics-informed neural networks (SA-PINNs) [Journal of Computational Physics, 474:111722, 2023] have demonstrated superior accuracy over vanilla PINNs in solving partial differential equations with steep gradients by assigning higher weights to critical regions.
 However, as the spatio-temporal domain extends, SA-PINNs often struggle to maintain high prediction accuracy.
-To address this limitation, we propose SA-PINNs with time-domain decomposition (SA-PINNs-TDD), which enable accurate and robust training across extended temporal domains, as demonstrated on the nonlinear $Schr\"{o}dinger$ equation, the 2D Navier-Stokes equation, and the 2D Burgers' equation.
+To address this limitation, we propose SA-PINNs with time-domain decomposition (SA-PINNs-TDD), which enable accurate and robust training across extended temporal domains, as demonstrated on the nonlinear Schrödinger equation, the 2D Navier-Stokes equation, and the 2D Burgers' equation.
 For the Allen-Cahn equation, SA-PINNs-TDD achieves a 56-fold improvement in accuracy over standard SA-PINNs, owing to a more effective distribution of adaptive weights.
 Furthermore, nonuniform time-domain partitioning is employed for the 2D Burgers’ equation to further enhance the prediction accuracy.
 SA-PINNs-TDD adopt a sequential domain-wise training strategy, where thorough pre-training of the initial subdomain is essential to establish accurate pseudo initial conditions and reduce error accumulation in subsequent subdomains.
@@ -22,9 +22,9 @@ Euler–Bernoulli-new: Euler–Bernoulli beam equation
 
 Navier-Stokes: 2D Navier-Stokes equation
 
-Schrodinger-2nd: Second-order rogue wave soluton of Schr\"{o}dinger equation
+Schrodinger-2nd: Second-order rogue wave soluton of Schrödinger equation
 
-Schrodinger: First-order rogue wave soluton of Schr\"{o}dinger equation
+Schrodinger: First-order rogue wave soluton of Schrödinger equation
 
 Timoshenko-new: Timoshenko beam equation
 
@@ -58,7 +58,7 @@ Two subdomains are employed to train SA-PINNs-TDD for solving the Allen-Cahn equ
 | 5            | **(3.02±0.92)e-4** |
 | 7            | (2.72±0.74)e-4     |
 
-Subdomain number test for the first-order rogue wave soluton of Schr\"{o}dinger equation.
+Subdomain number test for the first-order rogue wave soluton of Schrödinger equation.
 
 ### Second-order rogue wave of NLS equation (subdomain number test)：
 | Total number | RL2E                |
@@ -67,7 +67,7 @@ Subdomain number test for the first-order rogue wave soluton of Schr\"{o}dinger 
 | 5            | (9.21±7.12)e-4     |
 | 7            | **(6.05±1.99)e-4** |
 
-Subdomain number test for the second-order rogue wave soluton of Schr\"{o}dinger equation.
+Subdomain number test for the second-order rogue wave soluton of Schrödinger equation.
 
 #### Implementing SA-PINNs-TDD within the PyTorch framework for 2D PDE simulations yields superior GPU memory efficiency and reduced training times compared to TensorFlow on NVIDIA GPU platforms.
 
