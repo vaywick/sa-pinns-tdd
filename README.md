@@ -10,6 +10,7 @@ While the initial subdomain requires more epochs to reach convergence, subsequen
 
 
 #### Each folder in our repository is detailed in its respective readme file.
+#### Animations of the multi-scale and steep-gradient phenomena for the 2D Burgers’ equation are provided in the “Burgers2D” folder.
 
 # Benchmark
 
