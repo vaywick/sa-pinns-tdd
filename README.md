@@ -36,10 +36,10 @@ Timoshenko-new: Timoshenko beam equation
 
 | Model             | RL2E                  |
 |-------------------|----------------------|
-| bc-PINN       | 1.68e-2              |
-| original SA-PINNs | (2.10±1.21)e-2       |
-| PT-PINN      | (9.7±0.4)e-3         |
-| SA-PINNs-TDD      | **(3.76±1.01)e-4**   |
+| bc-PINN       | 1.68E-2              |
+| original SA-PINNs | (2.10±1.21)E-2       |
+| PT-PINN      | (9.7±0.4)E-3         |
+| SA-PINNs-TDD      | **(3.76±1.01)E-4**   |
 
 Two subdomains are employed to train SA-PINNs-TDD for solving the Allen-Cahn equation.
 
@@ -48,24 +48,24 @@ Two subdomains are employed to train SA-PINNs-TDD for solving the Allen-Cahn equ
 #### Comparisons：
 | Model | vanilla PINNs     | original SA-PINNs | SA-PINNs-TDD      |
 |-------|-------------------|-------------------|-------------------|
-| RL2E   | (1.52±0.04)e-1    | (1.11±0.05)e-1    | **(3.02±0.92)e-4** |
+| RL2E   | (1.52±0.04)E-1    | (1.11±0.05)E-1    | **(3.02±0.92)E-4** |
 
 
 | Total number | RL2E                |
 |--------------|--------------------|
-| 1            | (1.11±0.05)e-1     |
-| 3            | (4.09±1.87)e-4     |
-| 5            | **(3.02±0.92)e-4** |
-| 7            | (2.72±0.74)e-4     |
+| 1            | (1.11±0.05)E-1     |
+| 3            | (4.09±1.87)E-4     |
+| 5            | **(3.02±0.92)E-4** |
+| 7            | (2.72±0.74)E-4     |
 
 Subdomain number test for the first-order rogue wave soluton of Schrödinger equation.
 
 ### Second-order rogue wave of NLS equation (subdomain number test)：
 | Total number | RL2E                |
 |--------------|--------------------|
-| 1            | (1.60±0.05)e-1     |
-| 5            | (9.21±7.12)e-4     |
-| 7            | **(6.05±1.99)e-4** |
+| 1            | (1.60±0.05)E-1     |
+| 5            | (9.21±7.12)E-4     |
+| 7            | **(6.05±1.99)E-4** |
 
 Subdomain number test for the second-order rogue wave soluton of Schrödinger equation.
 
