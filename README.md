@@ -41,9 +41,9 @@ Timoshenko-new: Timoshenko beam equation
 | PT-PINN      | (9.7±0.4)e-3         |
 | SA-PINNs-TDD      | **(3.76±1.01)e-4**   |
 
- Two subdomains are employed to train SA-PINNs-TDD for solving the Allen-Cahn equation.
+Two subdomains are employed to train SA-PINNs-TDD for solving the Allen-Cahn equation.
 
-### First-order rogue wave of NLS equation (subdomain number test)：
+### First-order rogue wave of NLS equation：
 
 #### Comparisons：
 | Model | vanilla PINNs     | original SA-PINNs | SA-PINNs-TDD      |
@@ -58,12 +58,16 @@ Timoshenko-new: Timoshenko beam equation
 | 5            | **(3.02±0.92)e-4** |
 | 7            | (2.72±0.74)e-4     |
 
+Subdomain number test for the first-order rogue wave soluton of Schr\"{o}dinger equation.
+
 ### Second-order rogue wave of NLS equation (subdomain number test)：
 | Total number | RL2E                |
 |--------------|--------------------|
 | 1            | (1.60±0.05)e-1     |
 | 5            | (9.21±7.12)e-4     |
 | 7            | **(6.05±1.99)e-4** |
+
+Subdomain number test for the second-order rogue wave soluton of Schr\"{o}dinger equation.
 
 #### Implementing SA-PINNs-TDD within the PyTorch framework for 2D PDE simulations yields superior GPU memory efficiency and reduced training times compared to TensorFlow on NVIDIA GPU platforms.
 
