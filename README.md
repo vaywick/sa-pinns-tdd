@@ -41,6 +41,7 @@ Timoshenko-new: Timoshenko beam equation
 | PT-PINN      | (9.7±0.4)e-3         |
 | SA-PINNs-TDD      | **(3.76±1.01)e-4**   |
 
+ Two subdomains are employed to train SA-PINNs-TDD for solving the Allen-Cahn equation.
 
 ### First-order rogue wave of NLS equation (subdomain number test)：
 
