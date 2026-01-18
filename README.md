@@ -47,6 +47,7 @@ Prediction accuracy across different models is assessed using the relative $L_2$
 | 5            | (9.21±7.12)e-4     |
 | 7            | **(6.05±1.99)e-4** |
 
+#### Implementing SA-PINNs-TDD within the PyTorch framework for 2D PDE simulations yields superior GPU memory efficiency and reduced training times compared to TensorFlow.
 
 ### 2D Navier-Stokes equation：
 
