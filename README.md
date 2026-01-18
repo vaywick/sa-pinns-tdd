@@ -14,7 +14,7 @@ While the initial subdomain requires more epochs to reach convergence, subsequen
 
 # Benchmark
 
-### Allen-Cahn (SA-PINNs-TDD using 2 partition training)：
+### Allen-Cahn：
 Prediction accuracy across different models is assessed using the relative $L_2$-norm (RL2) error.
 
 [ PT-PINN: Journal of Computational Physics, 489:112258, 2023. bc-PINN: Computer Methods in Applied Mechanics and Engineering, 390:114474, 2022. ]
