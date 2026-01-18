@@ -11,15 +11,15 @@ While the initial subdomain requires more epochs to reach convergence, subsequen
 
 #### Each folder in our repository is detailed in its respective readme file.
 #### Animations of the multi-scale and steep-gradient phenomena for the 2D Burgers’ equation are provided in the “Burgers2D” folder.
+#### Prediction accuracy across different models is assessed using the relative $L_2$-norm error (RL2E).
 
 # Benchmark
 
 ### Allen-Cahn：
-Prediction accuracy across different models is assessed using the relative $L_2$-norm (RL2) error.
 
 [ PT-PINN: Journal of Computational Physics, 489:112258, 2023. bc-PINN: Computer Methods in Applied Mechanics and Engineering, 390:114474, 2022. ]
 
-| Model             | RL2                  |
+| Model             | RL2E                  |
 |-------------------|----------------------|
 | bc-PINN       | 1.68e-2              |
 | original SA-PINNs | (2.10±1.21)e-2       |
@@ -28,7 +28,7 @@ Prediction accuracy across different models is assessed using the relative $L_2$
 
 
 ### First-order rogue wave of NLS equation (subdomain number test)：
-| Total number | RL2                |
+| Total number | RL2E                |
 |--------------|--------------------|
 | 1            | (1.11±0.05)e-1     |
 | 3            | (4.09±1.87)e-4     |
@@ -38,10 +38,10 @@ Prediction accuracy across different models is assessed using the relative $L_2$
 #### Comparisons：
 | Model | vanilla PINNs     | original SA-PINNs | SA-PINNs-TDD      |
 |-------|-------------------|-------------------|-------------------|
-| RL2   | (1.52±0.04)e-1    | (1.11±0.05)e-1    | **(3.02±0.92)e-4** |
+| RL2E   | (1.52±0.04)e-1    | (1.11±0.05)e-1    | **(3.02±0.92)e-4** |
 
 ### Second-order rogue wave of NLS equation (subdomain number test)：
-| Total number | RL2                |
+| Total number | RL2E                |
 |--------------|--------------------|
 | 1            | (1.60±0.05)e-1     |
 | 5            | (9.21±7.12)e-4     |
@@ -51,7 +51,7 @@ Prediction accuracy across different models is assessed using the relative $L_2$
 
 ### 2D Navier-Stokes equation：
 
-| Total number | Function | RL2E                  |
+| Total number | Function | RL2EE                  |
 |--------------|----------|-----------------------|
 | 1            | $u$      | $1.84\mathrm{e}-1 ± 4.73\mathrm{e}-2$ |
 | 1            | $v$      | $1.81\mathrm{e}-1 ± 4.65\mathrm{e}-2$ |
@@ -60,10 +60,10 @@ Prediction accuracy across different models is assessed using the relative $L_2$
 | 4            | $v$      | $\mathbf{3.82\mathrm{e}-2 ± 5.12\mathrm{e}-3}$ |
 | 4            | $p$      | $\mathbf{6.00\mathrm{e}-2 ± 6.33\mathrm{e}-3}$ |
 
-RL2Es for $u(t,x,y)$, $v(t,x,y)$, and $p(t,x,y)$ in the single-subdomain and 4-subdomain simulations of the Navier-Stokes equation.
+RL2EEs for $u(t,x,y)$, $v(t,x,y)$, and $p(t,x,y)$ in the single-subdomain and 4-subdomain simulations of the Navier-Stokes equation.
 
 ### 2D Burgers' equation：
-| Total number     | Function | RL2E                  |
+| Total number     | Function | RL2EE                  |
 |------------------|----------|-----------------------|
 | 1                | $u$      | $1.36\mathrm{e}-1 \pm 1.16\mathrm{e}-1$ |
 | 1                | $v$      | $1.55\mathrm{e}-1 \pm 1.93\mathrm{e}-1$ |
@@ -72,7 +72,7 @@ RL2Es for $u(t,x,y)$, $v(t,x,y)$, and $p(t,x,y)$ in the single-subdomain and 4-s
 | 4(Nonuniform)    | $u$      | $\mathbf{2.88\mathrm{e}-3 \pm 7.43\mathrm{e}-4}$ |
 | 4(Nonuniform)    | $v$      | $\mathbf{1.91\mathrm{e}-3 \pm 8.33\mathrm{e}-5}$ |
 
-Comparisons of the RL2Es for the $u$ and $v$ solutions of the Burgers’ equation across three cases.
+Comparisons of the RL2EEs for the $u$ and $v$ solutions of the Burgers’ equation across three cases.
 
 ### Beam equations
 
