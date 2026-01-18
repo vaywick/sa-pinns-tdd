@@ -13,6 +13,14 @@ While the initial subdomain requires more epochs to reach convergence, subsequen
 #### Animations of the multi-scale and steep-gradient phenomena for the 2D Burgers’ equation are provided in the “Burgers2D” folder.
 #### Prediction accuracy across different models is assessed using the relative $L_2$-norm error (RL2E).
 
+AC:  Allen-Cahn
+Burgers2D: 2D Burgers' equation
+Euler–Bernoulli-new: Euler–Bernoulli beam equation
+Navier-Stokes: 2D Navier-Stokes equation
+Schrodinger-2nd: Second-order rogue wave soluton of Schr\"{o}dinger equation
+Schrodinger: First-order rogue wave soluton of Schr\"{o}dinger equation
+Timoshenko-new: Timoshenko beam equation
+
 # Benchmark
 
 ### Allen-Cahn：
