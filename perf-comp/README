@@ -1,0 +1,11 @@
+1. The PyTorch version is deployed across diverse computational environments within the SA-PINNs framework:
+
+PyTorch version 2.0.0 or higher
+
+CUDA versions 11 or 12
+
+2. TensorFlow version is configured to use specific software versions due to the L-BFGS algorithm implementation in the original SA-PINNs:
+
+tensorflow version = 2.3.0
+
+keras version = 2.4.3
