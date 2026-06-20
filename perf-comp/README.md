@@ -5,7 +5,7 @@ The number of collocation points is consistently set as 20000 across all cases, 
 As can be seen, compared with the TF architecture, the PT architecture offers several advantages: the training time with the Adam optimizer is reduced by approximately 50% for the first three cases.
 For the “7-48” neural network architecture with 10000, the PT framework reduces the training time by 71% and 25% compared with the TF framework when using the two optimizers, respectively.
 Compared with the TF framework, the PT framework achieves significantly lower GPU memory consumption across all test cases.
-In particular, for the architecture with 20000, training under the TF framework fails due to GPU out-of-memory limitations. </font> 
+In particular, for the architecture with 20000, training under the TF framework fails due to GPU out-of-memory limitations. New in Version 2.0</font>
 
 Software setup:
 
