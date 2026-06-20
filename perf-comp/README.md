@@ -1,7 +1,7 @@
-> [!NOTE]
+> [!Comparison of PyTorch and TensorFlow frameworks]
 > This is a note.
 
-🔵 The proposed model, implemented in PyTorch, offers greater memory efficiency and faster training than TensorFlow when solving 2D PDEs, as demonstrated below.
+🔵 The proposed model, implemented in PyTorch (PT), offers greater memory efficiency and faster training than TensorFlow (TF) when solving 2D PDEs, as demonstrated below.
 Figure file "comp-tf-pt.png" presents a comparison between the TF and PT frameworks in terms of training speed, memory usage, and power consumption for solving the high-order BS equation.
 In this figure, “s/epoch” represents per epoch in seconds and “W” denotes watts. “4-64” represents a neural network with 4 hidden layers and 64 neurons in each layer, and the same notation applies to the other cases.
 The number of collocation points is consistently set as 20000 across all cases, except for two entries where 10000 is used.
