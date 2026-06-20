@@ -1,5 +1,5 @@
-> [!Comparison of PyTorch and TensorFlow frameworks]
-> This is a note.
+> [!Note]
+> Comparison of PyTorch and TensorFlow frameworks.
 
 🔵 The proposed model, implemented in PyTorch (PT), offers greater memory efficiency and faster training than TensorFlow (TF) when solving 2D PDEs, as demonstrated below.
 Figure file "comp-tf-pt.png" presents a comparison between the TF and PT frameworks in terms of training speed, memory usage, and power consumption for solving the high-order BS equation.
